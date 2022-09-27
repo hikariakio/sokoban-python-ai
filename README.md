@@ -8,7 +8,7 @@ Solving Sokoban game using Artificial Intelligence using State space search
 
 This was a university assignment to implement the weighted version of classic [sokoban](https://en.wikipedia.org/wiki/Sokoban) game and solve the game in the least amount of moves.
 
-GUI feature is provided by the marker. The main task is to implement 'mySokobanSolver.py'.
+GUI feature is provided by the assignment. The main task is to implement 'mySokobanSolver.py'.
 
 ![](https://upload.wikimedia.org/wikipedia/commons/4/4b/Sokoban_ani.gif)
 
