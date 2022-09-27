@@ -70,9 +70,9 @@ Solve > Play action sequence
 
 ### Screenshots
 
-![initial-state](images/ss/gameplay1.png)
+![initial-state](images/ss/gameplay1.gif)
 ![terminal1](images/ss/terminal1.png)
-![goal-state](images/ss/gameplay2.png)
+
 
 
 ## Warehouse Map
@@ -96,6 +96,18 @@ Warehouse map of the above puzzle.
  # . .#@ #
  #########
  ```
+ <!-- WEIGHT Variant -->
+## Weight Variants
+
+AI will try reduce the cost as much as it can when pushing weighted boxes.
+
+* Normal        
+![initial-state](images/ss/gameplay2.gif)
+* Weighted
+![initial-state](images/ss/gameplay3.gif)
+
+*Box with weight 99 will be prioritized to the nearest target.*
+
 
  <!-- LICENSE -->
 ## License
