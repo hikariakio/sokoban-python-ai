@@ -101,9 +101,12 @@ Warehouse map of the above puzzle.
 
 AI will try reduce the cost as much as it can when pushing weighted boxes.
 
-* Normal        
+* Normal
+
 ![initial-state](images/ss/gameplay2.gif)
+
 * Weighted
+
 ![initial-state](images/ss/gameplay3.gif)
 
 *Box with weight 99 will be prioritized to the nearest target.*
