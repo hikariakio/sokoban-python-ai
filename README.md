@@ -34,6 +34,9 @@ Start GUI-mode.
     python gui_sokoban.py
 ```
 
+## Play On Repl
+Play [Here](https://replit.com/@hikariakio/SokobanSolver)!
+
 ## Usage
 <!-- usage -->
 
