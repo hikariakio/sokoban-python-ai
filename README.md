@@ -71,6 +71,33 @@ Solve > Play action sequence
 
 *AI calculation duration depends on the size of map and number of boxes. If there is no valid solution,error message will be shown on terminal.*
 
+### API
+
+The solver can also be accessed through an HTTP interface suitable for
+front-ends written in languages such as C#.
+
+Start the service with:
+
+```sh
+uvicorn api:app --reload
+```
+
+Send a `POST` request to `/solve_weighted_sokoban` with a JSON object
+describing the warehouse. Example:
+
+```json
+{
+  "worker": [1, 1],
+  "boxes": [[2, 1]],
+  "targets": [[3, 1]],
+  "walls": [[0,0], [1,0], [2,0], [3,0], [4,0], [0,1], [4,1], [0,2], [1,2], [2,2], [3,2], [4,2]],
+  "weights": [1]
+}
+```
+
+The response contains the action sequence and its total cost or the
+string `"Impossible"` if no solution exists.
+
 ### Screenshots
 
 ![initial-state](images/ss/gameplay1.gif)
